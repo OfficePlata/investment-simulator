@@ -1,13 +1,14 @@
 {
-  "name": "investment-simulator",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+    "name": "investment-simulator",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "export": "next build && next export"
+    },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
